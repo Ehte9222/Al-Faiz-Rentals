@@ -19,74 +19,12 @@ To use the program, follow these steps:
 1. **Compile the Program**:
    ```sh
    g++ Al-Faiz-Car-Rentals.cpp -o Al-Faiz-Car-Rentals
-
-
    ```
 2. **Run the Program:**
-
-```bash
-
-./Al-Faiz-Car-Rentals
-
-```
-
+   ```sh
+   ./Al-Faiz-Car-Rentals
+   ```
 3. **Select the Type of Rental:** The program will prompt you to select the type of rental. Enter the corresponding number for the type of rental you want to calculate the discount for:
-
-```sh Select the type of rental:
-Select the type of rental:
-1. Health and Wellness Rentals
-2. Academic and Educational Rentals
-3. Recreational and Adventure Rentals
-4. Sports Rentals
-5. Family and Social Rentals
-  Enter your choice:
-```
-4. **Enter the Required Information:** Based on your selection, the program will ask for additional information such as relation, rental cost, role, event type, etc. Enter the required information as prompted.
-
-5. **View the Final Cost:** The program will calculate the discount and display the final rental cost after applying the discount.
-
-
-### Example
-Here is an example of how to use the program:
-
-1. Run the program:
-```sh
-./Al-Faiz-Car-Rentals
-```
-
-2. Select the type of rental: 
-
-```
-Select the type of rental:
-1. Health and Wellness Rentals
-2. Academic and Educational Rentals
-3. Recreational and Adventure Rentals
-4. Sports Rentals
-5. Family and Social Rentals
-Enter your choice: 1
-```
-
-3. Enter the info: 
-
-```sh 
-Enter the relation (parent/spouse/child/sibling): parent
-Enter the rent amount: $100
-```
-4. View the final cost: 
-
-```sh 
-Original Rent: $100
-Discount: $75
-Covered by RIPHAH: $37.5
-Final Rent to be paid: $25
-```
-
-
-
-
-
-3. **Select the Type of Rental**:
-   The program will prompt you to select the type of rental. Enter the corresponding number for the type of rental you want to calculate the discount for:
    ```
    Select the type of rental:
    1. Health and Wellness Rentals
@@ -94,23 +32,19 @@ Final Rent to be paid: $25
    3. Recreational and Adventure Rentals
    4. Sports Rentals
    5. Family and Social Rentals
-   Enter your choice: 
+   Enter your choice:
    ```
+4. **Enter the Required Information:** Based on your selection, the program will ask for additional information such as relation, rental cost, role, event type, etc. Enter the required information as prompted.
 
-4. **Enter the Required Information**:
-   Based on your selection, the program will ask for additional information such as relation, rental cost, role, event type, etc. Enter the required information as prompted.
+5. **View the Final Cost:** The program will calculate the discount and display the final rental cost after applying the discount.
 
-5. **View the Final Cost**:
-   The program will calculate the discount and display the final rental cost after applying the discount.
-
-## Example
+### Example
 Here is an example of how to use the program:
 
 1. Run the program:
    ```sh
    ./Al-Faiz-Car-Rentals
    ```
-
 2. Select the type of rental:
    ```
    Select the type of rental:
@@ -121,13 +55,11 @@ Here is an example of how to use the program:
    5. Family and Social Rentals
    Enter your choice: 1
    ```
-
 3. Enter the required information:
    ```
    Enter the relation (parent/spouse/child/sibling): parent
    Enter the rent amount: $100
    ```
-
 4. View the final cost:
    ```
    Original Rent: $100
@@ -144,17 +76,6 @@ The program includes the following functions:
 - `double calculateRecreationalAndAdventureDiscount(double rentalCost, string role)`: Calculates the discount for recreational and adventure rentals based on the role.
 - `double calculateSportsDiscount(double rentalCost, double sportsRental, string eventType)`: Calculates the discount for sports rentals based on the event type.
 - `double calculateFamilyAndSocialDiscount(double rentalCost, double socialRentals, string role, string eventType, string eventLocation)`: Calculates the discount for family and social rentals based on the role, event type, and event location.
-
-## License
-This project is licensed under the MIT License - see the 
-
-LICENSE
-
- file for details.
-```
-
-This README provides an overview of the program, usage instructions, an example, and details about the functions included in the program. Let me know if you need any further changes or explanations.
-This README provides an overview of the program, usage instructions, an example, and details about the functions included in the program. Let me know if you need any further changes or explanations.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
